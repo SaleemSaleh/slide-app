@@ -1,0 +1,55 @@
+html,body{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.sroll1{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius:120px ;
+    background-color: red;
+    z-index: 6;
+    cursor: grab;
+    transform: translate(-50%,-50%);
+    background-image: url("./hero-small.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.sroll2{ 
+    position: absolute;
+    left:0;
+    top: 0; 
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    z-index: 4;
+    background-image: url("./nat-2.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
+.sroll3{  
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 5;
+    background-image: url("./hero-small.jpg");
+    background-position: left;
+    background-size: cover;
+    
+}
